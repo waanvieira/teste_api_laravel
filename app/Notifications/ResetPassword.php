@@ -9,7 +9,7 @@ use Illuminate\Notifications\Notification;
 
 class ResetPassword extends Notification
 {
-    // use Queueable;
+    use Queueable;
 
     protected $token;
 
